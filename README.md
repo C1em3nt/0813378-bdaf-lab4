@@ -22,7 +22,8 @@ npx hardhat run scripts/deploy.js --network <your network>
   ```
   - Test and gas report
   <img width="377" alt="螢幕擷取畫面 2023-04-03 233952" src="https://user-images.githubusercontent.com/87816657/229562086-9c297a21-f06e-451d-94a6-1a99041a0481.png">
-
+  - Coverage
+  <img width="636" alt="螢幕擷取畫面 2023-04-03 234410" src="https://user-images.githubusercontent.com/87816657/229562252-26e8eaa9-2bd4-488e-8b7d-6dd085c72e2b.png">
 ## Deploy
 ```
 npx hardhat run scripts/deploy.js --network goerli
