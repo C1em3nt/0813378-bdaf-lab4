@@ -23,5 +23,7 @@
   ```
   npx hardhat coverage --testfiles "./tests/factorytest.js"
   ```
+  
   - Coverage
+
   <img width="636" alt="螢幕擷取畫面 2023-04-03 234410" src="https://user-images.githubusercontent.com/87816657/229562528-55347ad2-43ac-4411-82ec-fd0f68f0c332.png">
