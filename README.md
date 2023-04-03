@@ -20,7 +20,7 @@
   - Test and gas report
   <img width="377" alt="螢幕擷取畫面 2023-04-03 233952" src="https://user-images.githubusercontent.com/87816657/229562086-9c297a21-f06e-451d-94a6-1a99041a0481.png">
   
-  - Coverage
+  - Coverage (Close npx hardhat node first.)
   
   ```
   npx hardhat coverage --testfiles "./tests/factorytest.js"
