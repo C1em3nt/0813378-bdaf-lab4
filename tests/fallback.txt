@@ -1,0 +1,35 @@
+    function _delegate(address impl) internal virtual {
+        assembly {
+            let ptr := mload(0x40)
+            calldatacopy(ptr, 0, calldatasize())
+
+            let result := delegatecall(gas(), impl, ptr, calldatasize(), 0, 0)
+
+            let size := returndatasize()
+            returndatacopy(ptr, 0, size)
+
+            switch result
+            case 0 {
+                revert(ptr, size)
+            }
+            default {
+                return(ptr, size)
+            }
+        }
+    }
+
+    fallback() external {
+        _delegate(StorageSlot.getAddressAt(_IMPL_SLOT));
+    }
+
+
+    // method 2
+    fallback(bytes calldata callData) external payable returns (bytes memory resultData) {   
+        address logic;
+        logic = getcontent(implementation_slot);
+        bool success;
+        (success, resultData) = logic.delegatecall(callData);
+        if (!success) {
+            assembly { revert(add(resultData, 0x20), mload(resultData)) }
+        }
+    }
