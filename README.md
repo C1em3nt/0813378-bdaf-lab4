@@ -6,9 +6,6 @@
   - Default network is hardhat.
   
 ## Test
-### Test on network:
-```
-npx hardhat run scripts/deploy.js --network <your network>
 ```
 ### Test on localhost:
   
