@@ -1,7 +1,7 @@
 # 0813378-bdaf-lab4
 
 ## Setting
-  - [Dependencies](https://github.com/C1em3nt/0813378-bdaf-lab3/blob/main/package.json)
+  - [Dependencies](https://github.com/C1em3nt/0813378-bdaf-lab4/blob/main/package.json)
   
   - Default network is hardhat.
   
