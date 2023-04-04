@@ -28,8 +28,9 @@
 
   <img width="636" alt="螢幕擷取畫面 2023-04-03 234410" src="https://user-images.githubusercontent.com/87816657/229562528-55347ad2-43ac-4411-82ec-fd0f68f0c332.png">
 
-### I write a better test file on 4/4, here is the gas report and coverage. [better version](https://github.com/C1em3nt/0813378-bdaf-lab4/blob/main/tests/factorytest_better.js)
+### I write a better test file on 4/4. [better version](https://github.com/C1em3nt/0813378-bdaf-lab4/blob/main/tests/factorytest_better.js)
 
+  Here are the gas report and coverage. 
   - Gas report
   <img width="652" alt="螢幕擷取畫面 2023-04-04 223510" src="https://user-images.githubusercontent.com/87816657/229829224-a1420ee2-b9f9-49b1-ac49-a09f845b8d73.png">
 
